@@ -1,0 +1,11 @@
+x=int(input("enter the number you want to see divible buy 3 or 5 bec you are incapaible of using a culculater"))
+if x%5==0 and x%3==0 :
+    print("it can be devided on 3 and 5 but just use gogele it is beter or usE A CULCULATER")
+elif x%5==0:
+    print("it can be devided on 5 but just use gogele it is beter or usE A CULCULATER")
+elif x%3==0:
+    print("it can be dived on 3 only YAAA DUM DUM")
+else:
+    print("it cant be dived on 3 or 5 AND USE A CULCULATER YAAA DUMY")
+
+
