@@ -1,0 +1,16 @@
+q = input("enter your user name ")
+len(q)
+if len(q) < 4:
+    print(" Ierorl  username must be more than 4 leters YA DUMY")
+elif " " in q:
+    print(" IerorL  you know that you cant have spaces in you user name YOU INCOMPENTENT POTOA HEAD")
+w = input("enter the pssword you want to use ")
+len(w)
+if len(w) < 8:
+    print("IerorLthe password off your acount man or i ma going to kil you wich means you get baned for EVER")
+elif " " in w:
+    print("IerorL  the pssword must  not have  spaces")
+else:
+    print("you are exepted here plz come we want users any way ")
+
+# evry Ierorl restart the site
