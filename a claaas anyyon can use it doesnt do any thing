@@ -1,0 +1,46 @@
+class grenn_market :
+    def __init__(self,product_code,price,is_it_NOICE=False):
+        self.product_code= product_code
+        self.price=price
+        self.is_it_NOICE=is_it_NOICE
+
+    def getter(self):
+        print(self.product_code)
+        print(self.price)
+        print(self.is_it_NOICE)
+class vegyes (grenn_market):
+   def __init__(self, product_code,price,is_it_NOICE=False):
+        self.product_code= product_code
+        self.price=price
+        self.is_it_NOICE=is_it_NOICE
+
+class dairy (grenn_market):
+    def __init__(self,product_code , price,is_it_NOICE=True):
+        self.product_code= product_code
+        self.price = price
+        self.is_it_NOICE = is_it_NOICE
+
+class fruit (grenn_market):
+    def __init__(self,product_code,price,is_it_NOICE=True):
+        self. product_code= product_code
+        self.price = price
+        self.is_it_NOICE = is_it_NOICE
+class meat (grenn_market) :
+    def __init__(self, product_code, price, is_it_NOICE=True):
+        self.product_code = product_code
+        self.price = price
+        self.is_it_NOICE = is_it_NOICE
+
+pottato=vegyes(124132,10,is_it_NOICE=False)
+pottato=()
+
+
+milk=dairy(124133,20,is_it_NOICE=True)
+milk=()
+
+watermelon=fruit(124135,100,is_it_NOICE=True)
+watermelon=()
+
+chicken=meat(124136,180,is_it_NOICE=True)
+chicken=()
+
